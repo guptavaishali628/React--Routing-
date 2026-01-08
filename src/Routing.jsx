@@ -12,6 +12,7 @@ const Routing = () => {
         <Route path='/' element={<Layout/>}>
         {/* bydefault isko dikhane k liye on layout */}
             <Route index element={<Home/>}></Route> 
+            <Route path='home' element={<Home/>}></Route> 
             <Route path='about' element={<About/>}></Route> 
             <Route  path='contact' element={<Contact/>}></Route> 
             {/* if page not found */}
